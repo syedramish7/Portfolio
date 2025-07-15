@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="logo">
         <Link href="https://www.instagram.com/syed._.ramish/" target="_blank" >
         
-          Ramish’s Portfolio
+          Ramish
         </Link> 
       </div>
       <a href="" className="cta-btn">Resume</a>

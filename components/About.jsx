@@ -2,7 +2,8 @@ import Image from "next/image";
 
 const About = () => {
     return(
-        <div className="about-container">
+
+        <section id="about" className="about-container">
             <h2> About Me</h2>
             <div className="flex-about">
                 <div className="about-text">
@@ -18,7 +19,7 @@ const About = () => {
               <Image src="/images/B9EDCF21-0574-4EA5-A955-9F88AB51C338.jpeg" className="profile-img" width={300} height={500} alt="Profile Image" />
             </div>
             </div>
-        </div>
+        </section>
     )
 }
 export default About;

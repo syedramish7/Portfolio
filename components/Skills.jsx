@@ -1,7 +1,7 @@
 
 const Skills = () => {
     return (
-      <div className="skills-container">
+      <section id="skills" className="skills-container">
         <h2>Skills</h2>
         <div className="grid-skills">
           <div className="skill-card html">
@@ -39,7 +39,7 @@ const Skills = () => {
             <p>Next.js</p>
           </div>
         </div>
-      </div>
+      </section>
     )
   }
   
